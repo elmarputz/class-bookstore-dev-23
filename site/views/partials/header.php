@@ -51,42 +51,24 @@
                                 <a href="index.php?view=login">Login now</a>
                             </li>
                         </ul>
-<<<<<<< HEAD
                     <?php else: ?>
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   Logged in as  <span class="badge"><?php // echo Util::escape($user->getUserName()); ?></span>
-=======
-                    <?php // else: ?>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                  Logged in as  <span class="badge"><?php echo // Util::escape($user->getUserName()); ?></span>
->>>>>>> beb5d4271d2e93d35caf709ddb860dbd2e364f45
                   <b class="caret"></b>
                 </a>
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li class="centered">
-<<<<<<< HEAD
                     <form method="post" action="<?php // echo Util::action(Bookshop\Controller::ACTION_LOGOUT); ?>">
-=======
-                    <form method="post" action="<?php echo // Util::action(Bookshop\Controller::ACTION_LOGOUT); ?>">
->>>>>>> beb5d4271d2e93d35caf709ddb860dbd2e364f45
                       <input class="btn btn-xs" role="button" type="submit" value="Logout" />
                     </form>
                     </li>
                   </ul>
-<<<<<<< HEAD
               <?php endif; ?>
-=======
-              <?php // endif; ?>
->>>>>>> beb5d4271d2e93d35caf709ddb860dbd2e364f45
                 </li>
             </ul> <!-- /. login -->
         </div><!--/.nav-collapse -->
     </div>
 </div>
 
-<<<<<<< HEAD
 <div class="container">
-=======
-<div class="container">
->>>>>>> beb5d4271d2e93d35caf709ddb860dbd2e364f45
