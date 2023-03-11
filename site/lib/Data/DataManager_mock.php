@@ -3,6 +3,7 @@ namespace Data;
 
 use Bookshop\Category;
 use Bookshop\Book;
+use Bookshop\User;
 
 class DataManager implements IDataManager {
 
@@ -43,5 +44,13 @@ class DataManager implements IDataManager {
 
     }
 
+    public static function getCategories() : array {
+        return self::getMockData('categories');
+    }
+
+    public static function getBooksByCategoryId(int $categoryId): array
+    {
+        return [];
+    }
 
 }

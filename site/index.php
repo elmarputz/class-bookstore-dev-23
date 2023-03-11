@@ -14,11 +14,6 @@ if (isset($_REQUEST['view']) &&
         // index.php?view=../inc/boostrap.php
 }
 
-$c = new Bookshop\Category(1, 'Test');
-var_dump($c);
-
-$b = new Bookshop\Book(1, 1, "Testbuch", "Testautor", 23.33);
-var_dump($b);
 
 $user = null;
 

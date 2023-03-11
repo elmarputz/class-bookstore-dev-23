@@ -15,3 +15,9 @@ spl_autoload_register(function ($class) {
 
 // default view
 $default_view = 'welcome';
+
+
+// datamanager dependency 
+$mode = 'mock';
+
+require_once(__DIR__.'/../lib/Data/DataManager_'.$mode.'.php');

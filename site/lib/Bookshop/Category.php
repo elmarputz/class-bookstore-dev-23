@@ -11,4 +11,8 @@ class Category extends Entity {
         $this->name = $name;
     }
 
+    public function getName() : string {
+        return $this->name;
+    }
+
 }
