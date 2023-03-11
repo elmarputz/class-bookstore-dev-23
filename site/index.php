@@ -12,5 +12,9 @@ if (isset($_REQUEST['view']) &&
         // index.php?view=../inc/boostrap.php
 }
 
+$c = new Bookshop\Category(1, 'Test');
+var_dump($c);
+
+$user = null;
 
 require_once('views/' . $view . '.php');
